@@ -1,0 +1,313 @@
+
+.sidenav {
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:gainsboro;
+  overflow-x: hidden;
+  text-align: center;
+  padding-top: 20px;
+ 
+}
+.sidenav_year {
+  position: absolute;
+  bottom: 30px;
+  padding-left: 10px;
+} 
+
+.main {
+  margin-left: 52px;  
+}
+.first_page{
+    background-image: url(https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    height: 760px; 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: -10px;
+}
+.first_page_text{
+    position: absolute;
+    top: 35%;
+    color: white;
+    text-align: center;
+    left:40%; 
+}
+.first_page_btn{
+    background-color: yellow;
+    border: none;
+    color:black;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+     cursor: pointer;
+     border-radius: 25px;  
+
+}
+
+.second_color{
+  color: rgb(204, 93, 52);
+}
+.third_color{
+  color: rgb(219, 156, 39);
+}
+.second_page{
+ background-color: rgb(192, 192, 192);
+ height: 600px; 
+ background-size: cover;
+ display: flex;
+ color:rgb(37, 37, 37);  
+  
+}
+.second_page_one{
+    width:50%;
+    text-align: center; 
+    padding-top: 100px;
+}
+.second_page_pad{
+  padding-top: 20px;
+}
+.second_page_two{
+  width:50%;
+  text-align: center;
+  padding: 130px 10px 50px 50px;
+
+}
+
+.image_shadow {
+  box-shadow: 2px 4px 12px 2px rgb(100, 100, 100);
+}
+.image_shadow:hover {
+  box-shadow: 5px 10px 15px 5px rgb(100, 100, 100);
+}
+.second_page_btn{
+    border-color: rgb(204, 93, 52);
+    color: rgb(204, 93, 52);
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.second_page_btn:hover{
+  word-spacing: 6px;
+
+}
+.third_page {
+    background-color: black;
+    color: white;
+    text-align: center; 
+    height: 500px; 
+    padding-top: 70px;
+    margin-top: 70px;
+    
+} 
+.third_page_pad{
+  padding-top: 60px;
+}
+
+.fourth_page{
+  height: 176px; 
+ background-size: cover;
+  display: flex;
+  color:rgb(37, 37, 37);
+   margin-top: 90px;
+   
+}
+.fourth_page_one{
+  width:50%;
+  background-color: whitesmoke;
+  margin-left: 2px;
+
+}
+.fourth_page_two{
+  width:50%;
+  background-color: whitesmoke;
+  margin-left: 2px;
+}
+.sub_page{
+  display: flex;
+}
+.sub_page_one{
+  width: 50%;
+  padding: 12px 5px 10px 0px;
+  margin-left: -45px;
+  
+}
+.sub_page_two{
+  width: 50%;
+  text-align: left;
+}
+.footer-container {
+  display: flex;
+      background-color: rgb(19, 18, 18);
+      color: white;
+      padding: 20px 30px 20px 30px;   
+}
+.footer-container a{
+  cursor: pointer;
+}
+   
+.footerone {
+   width:20%;
+  
+}
+.footertwo {
+   width:10%;
+}
+.footerthree {
+   width:30%;
+ 
+}
+.footerfour {
+   width:40%;
+  padding: 12px;
+}
+.footemail{
+  border: 1px solid;
+}
+
+.emailbt{ 
+    background-color: white;
+    border:grey;
+    border-right: 60px solid rgb(231, 87, 35) ;
+    width: 350px;
+    padding: 10px;
+    padding-left: 10px;
+    text-align: left;
+    color: rgb(78, 76, 76);
+    place-content: "Your email...";
+
+}
+.gallery{
+  display: flex;
+  padding: 1px 20px 1px 1px;
+}
+.gallery_one{
+  width: 28%;
+}
+.gallery_two{
+  width: 28%;
+}
+.gallery_three{
+  width: 44%;
+}
+.card{
+  display: flex;
+  padding: 60px 10px 30px 10px;
+}
+.card_one{
+  width: 50%;
+  padding-left: 70px;
+}
+.card_two{
+  width: 50%;
+}
+.card_shadow {
+  box-shadow: 2px 8px 10px 2px rgba(0,0,0,0.2);
+  width: 90%;
+}
+
+.card_shadow:hover {
+  box-shadow: 5px 12px 20px 5px rgba(0,0,0,0.2);
+}
+
+.container {
+  padding:  10px 10px;
+  background-color: black;
+  color: white;
+  margin-top: -5px;
+}
+.sub_card{
+  display: flex;
+}
+.sub_card_one{
+  width: 60%;
+  padding: 2px 5px 5px 5px;
+}
+.sub_card_two{
+  width: 40%;
+  text-align: right;
+  font-size: 30px;
+  padding: 15px 5px 10px 10px;
+}
+.card_btn{
+  border-color: rgb(204, 93, 52);
+  color: rgb(204, 93, 52);
+  padding: 10px 40px 10px 40px;
+  border-radius: 25px; 
+  background-color: black;
+  border-width: 1px;
+  text-align: center;
+  cursor: pointer;
+}
+.card_pad{
+  padding-top: 40px;
+}
+.card_text{
+  color: gray;
+}
+.card_btn:hover{
+  word-spacing: 5px;
+
+}
+.social_icons{
+  text-align: center;
+  padding-top: 200px;
+  line-height: 350%;
+
+}
+.sidenavs {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin-left:60px ;
+  opacity: 0.90;
+  text-align: center;
+}
+
+.sidenavs a {
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+.sidenavs a:hover {
+  color: #f1f1f1;
+}
+
+.sidenavs .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 5px;
+}
+.search_btn{
+  border-color: rgb(204, 93, 52);
+  color: rgb(204, 93, 52);
+  padding: 10px 40px 10px 40px;
+  border-radius: 25px; 
+  background-color: black;
+  border-width: 1px;
+  text-align: left;
+  cursor: pointer;
+}
+.toggle_pad{
+  padding-top: 80px;
+}
