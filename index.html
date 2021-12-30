@@ -78,7 +78,8 @@
                 <h2>Single Room</h2>
                 <p class="card_text">Lorem ipsum dolor sit amet.</p>
                 <div class="card_pad">
-                  <button onclick="bookOne()" class="card_btn ">Book Now >></button>
+                  <button class="card_btn " onclick="openForm()">Book Now >></button>
+                  
                 </div>
 
               </div>
@@ -89,16 +90,35 @@
           </div>
         </div>
       </div>
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Metro hotel</h1>
+      
+          <label for="email"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="name" required>
+      
+          <label for="email"><b>Phone Number</b></label>
+          <input type="text" placeholder="Enter Phone Number" name="number" required>
+      
+          <label for="psw"><b>Check-in-date</b></label>
+          <input type="password" placeholder="Enter Check-in-date" name="indate" required>
+           <label for="psw"><b>Check-out-date</b></label>
+          <input type="password" placeholder="Enter Check-out-date" name="indate" required>
+      
+          <button type="submit" class="btn" onclick="bookOne()" >Click here to Book</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
       <div class="card_two">
         <div class="card_shadow">
-          <img src="a2.jpg" alt="picture" width="100%" height="70%">
+          <img src="a1.jpg" alt="picture" width="100%" height="70%">
           <div class="container">
             <div class="sub_card">
               <div class="sub_card_one">
                 <h2>Double Room</h2>
                 <p class="card_text">Lorem ipsum dolor sit amet.</p>
                 <div class="card_pad">
-                  <button onclick="bookOne()" class="card_btn ">Book Now >></button>
+                  <button onclick="openForm()" class="card_btn ">Book Now >></button>
                 </div>
 
               </div>
@@ -120,7 +140,7 @@
                 <h2>Deluxe Room</h2>
                 <p class="card_text">Lorem ipsum dolor sit amet.</p>
                 <div class="card_pad">
-                  <button onclick="bookOne()" class="card_btn ">Book Now >></button>
+                  <button onclick="openForm()" class="card_btn ">Book Now >></button>
                 </div>
 
               </div>
@@ -133,14 +153,14 @@
       </div>
       <div class="card_two">
         <div class="card_shadow">
-          <img src="a1.jpg" alt="picture" width="100%" height="70%">
+          <img src="a2.jpg" alt="picture" width="100%" height="70%">
           <div class="container">
             <div class="sub_card">
               <div class="sub_card_one">
                 <h2>Premium Room</h2>
                 <p class="card_text">Lorem ipsum dolor sit amet.</p>
                 <div class="card_pad">
-                  <button onclick="bookOne()" class="card_btn ">Book Now >></button>
+                  <button onclick="openForm()" class="card_btn ">Book Now >></button>
                 </div>
 
               </div>
@@ -262,6 +282,13 @@
     }
     function bookOne() {
   alert("Booked Succesfully!! ");
+}
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
 }
     </script>
 </body>
